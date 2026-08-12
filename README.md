@@ -61,6 +61,10 @@ When the garbage reaches the defined full level, the Arduino checks the GPS loca
 
 > **Important:** SIM800L modules can require a separate, stable power supply with sufficient current. Do not power a bare SIM800L directly from an Arduino Uno 5V pin unless your specific board explicitly supports it.
 
+## 🔌 Circuit & Block Diagram
+
+![Smart Dustbin Circuit Diagram](circuit-diagram.png)
+
 ## ⚙️ Working Principle
 
 1. The HC-SR04 sends an ultrasonic pulse into the dustbin.
